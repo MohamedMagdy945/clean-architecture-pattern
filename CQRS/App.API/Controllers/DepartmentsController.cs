@@ -1,0 +1,14 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace App.API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class DepartmentsController : ControllerBase
+    {
+        public DepartmentsController()
+        {
+        }
+
+    }
+}
